@@ -1,0 +1,9 @@
+@startuml
+class Fly {
+    + Fly(x:double, y:double, angle:double, enhanced:double, force:double, gameblocks:List<Player>, side:bool, grounds:List<HitBox>, type:string, player:Player)
+    + <<override>> Update() : void
+    + <<override>> DrawExplode() : void
+    + <<override>> Draw() : void
+}
+Bullet <|-- Fly
+@enduml

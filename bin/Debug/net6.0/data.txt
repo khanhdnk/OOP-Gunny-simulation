@@ -1,0 +1,54 @@
+Player 1 | Number of shooted bullets: 14 | Number of successfull bullets 12 | Point(s): 2
+Player 2 | Number of shooted bullets: 3 | Number of successfull bullets 1 | Point(s): 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 20 | Number of successfull bullets 0 | Point(s): 0
+Player 2 | Number of shooted bullets: 24 | Number of successfull bullets 8 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 3 | Number of successfull bullets 3 | Point(s): 1
+Player 2 | Number of shooted bullets: 24 | Number of successfull bullets 9 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 0 | Number of successfull bullets 0 | Point(s): 0
+Player 2 | Number of shooted bullets: 12 | Number of successfull bullets 6 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 4 | Number of successfull bullets 3 | Point(s): 1
+Player 2 | Number of shooted bullets: 7 | Number of successfull bullets 6 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 9 | Number of successfull bullets 6 | Point(s): 2
+Player 2 | Number of shooted bullets: 18 | Number of successfull bullets 0 | Point(s): 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 0 | Number of successfull bullets 0 | Point(s): 0
+Player 2 | Number of shooted bullets: 15 | Number of successfull bullets 11 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 27 | Number of successfull bullets 7 | Point(s): 2
+Player 2 | Number of shooted bullets: 7 | Number of successfull bullets 1 | Point(s): 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 14 | Number of successfull bullets 8 | Point(s): 2
+Player 2 | Number of shooted bullets: 14 | Number of successfull bullets 7 | Point(s): 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 5 | Number of successfull bullets 3 | Point(s): 1
+Player 2 | Number of shooted bullets: 8 | Number of successfull bullets 7 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 9 | Number of successfull bullets 4 | Point(s): 1
+Player 2 | Number of shooted bullets: 11 | Number of successfull bullets 6 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 21 | Number of successfull bullets 5 | Point(s): 1
+Player 2 | Number of shooted bullets: 33 | Number of successfull bullets 8 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 0 | Number of successfull bullets 0 | Point(s): 0
+Player 2 | Number of shooted bullets: 12 | Number of successfull bullets 9 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 0 | Number of successfull bullets 0 | Point(s): 0
+Player 2 | Number of shooted bullets: 17 | Number of successfull bullets 13 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 0 | Number of successfull bullets 0 | Point(s): 0
+Player 2 | Number of shooted bullets: 22 | Number of successfull bullets 20 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 26 | Number of successfull bullets 18 | Point(s): 2
+Player 2 | Number of shooted bullets: 17 | Number of successfull bullets 10 | Point(s): 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 10 | Number of successfull bullets 8 | Point(s): 1
+Player 2 | Number of shooted bullets: 28 | Number of successfull bullets 16 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Player 1 | Number of shooted bullets: 33 | Number of successfull bullets 14 | Point(s): 1
+Player 2 | Number of shooted bullets: 25 | Number of successfull bullets 14 | Point(s): 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

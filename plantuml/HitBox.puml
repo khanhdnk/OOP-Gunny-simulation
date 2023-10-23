@@ -1,0 +1,9 @@
+@startuml
+interface HitBox {
+    + Top : double <<get>>
+    + Bottom : double <<get>>
+    + Left : double <<get>>
+    + Right : double <<get>>
+}
+HitBox --> "Rectangle" Rectangle
+@enduml

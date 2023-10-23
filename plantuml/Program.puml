@@ -1,0 +1,7 @@
+@startuml
+class Program {
+    + <<const>> SCREEN_BORDER : int = 200
+    + <<const>> LeftScreenBorder : int = 0
+    + {static} Main() : void
+}
+@enduml

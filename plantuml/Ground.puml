@@ -1,0 +1,18 @@
+@startuml
+class Ground {
+    + Ground(x:double, y:double, width:int, height:int, type:string)
+    + Destroyed : bool <<get>> <<set>>
+    + MainDestroyed : bool <<get>> <<set>>
+    + SecondDestroyed : bool <<get>> <<set>>
+    + ThirdDestroyed : bool <<get>> <<set>>
+    + Update() : void
+    + Top : double <<get>>
+    + Bottom : double <<get>>
+    + Left : double <<get>>
+    + Right : double <<get>>
+    + Draw() : void
+}
+GameBlock <|-- Ground
+HitBox <|-- Ground
+Ground --> "Rectangle" Rectangle
+@enduml

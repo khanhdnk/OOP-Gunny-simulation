@@ -1,0 +1,8 @@
+@startuml
+class ScoreBoard {
+    + ScoreBoard(x:double, y:double, player1:Player, player2:Player, window:Window, gameManager:GameManager)
+    + FormatTime(countTime:double) : string
+    + Draw() : void
+}
+GameBlock <|-- ScoreBoard
+@enduml

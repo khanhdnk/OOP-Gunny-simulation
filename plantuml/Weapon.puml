@@ -1,0 +1,15 @@
+@startuml
+class Weapon {
+    + Weapon(grounds:List<HitBox>, players:List<Player>, player:Player)
+    + SetEnhancedRate(rate:double) : void
+    + SetBulletType : string <<get>> <<set>>
+    + SetTurn : int <<get>> <<set>>
+    + SetForce : double <<get>> <<set>>
+    + Shoot() : void
+    + SetMulProperties() : void
+    + Draw() : void
+}
+class "List`1"<T> {
+}
+Weapon --> "Players<Player>" "List`1"
+@enduml
