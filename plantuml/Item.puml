@@ -1,0 +1,13 @@
+@startuml
+class Item {
+    + Item(x:double, y:double, enhanceRate:double, manaCost:double, player:Player, weapon:Weapon, text:string, bulletType:string, window:Window, fileName:string, button:string)
+    + Used : bool <<get>> <<set>>
+    + Update() : void
+    + WeaponConfig() : void
+    + ResetAbility() : void
+    + UseItem() : void
+    + CheckUsed() : void
+    + Draw() : void
+}
+GameBlock <|-- Item
+@enduml

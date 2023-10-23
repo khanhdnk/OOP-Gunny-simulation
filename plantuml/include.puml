@@ -1,0 +1,16 @@
+@startuml
+!include .\\Bullet.puml
+!include .\\Button.puml
+!include .\\Fly.puml
+!include .\\ForceBar.puml
+!include .\\Freeze.puml
+!include .\\Gameblock.puml
+!include .\\GameManager.puml
+!include .\\Ground.puml
+!include .\\HitBox.puml
+!include .\\Item.puml
+!include .\\Player.puml
+!include .\\Program.puml
+!include .\\ScoreBoard.puml
+!include .\\Weapon.puml
+@enduml

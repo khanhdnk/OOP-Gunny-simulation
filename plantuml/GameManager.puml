@@ -1,0 +1,22 @@
+@startuml
+class GameManager {
+    + GameManager(_screenWidth:int, _screenHeight:int, window:Window)
+    + ResetGame(_screenWidth:int, _screenHeight:int, window:Window) : void
+    + GetGameState() : void
+    + GetData() : void
+    + RoundsCount : double <<get>> <<set>>
+    + CountTime : double <<get>> <<set>>
+    + P1Points : double <<get>> <<set>>
+    + P2Points : double <<get>> <<set>>
+    + Update() : void
+    + ResetFigures() : void
+    + UpdateFigures() : void
+    + SaveData() : void
+    + UpdateCameraPosition(mousePos:Point2D, reset:string) : void
+    + UpdateCameraPositionForHistory(mousePos:Point2D, reset:string) : void
+    + GameState : string <<get>>
+    + Draw() : void
+}
+GameManager --> "Player1" Player
+GameManager --> "Player2" Player
+@enduml

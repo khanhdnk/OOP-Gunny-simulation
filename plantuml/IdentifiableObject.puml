@@ -1,0 +1,8 @@
+@startuml
+class IdentifiableObject {
+    + IdentifiableObject(idents:string[])
+    + AreYou(id:string) : bool
+    + FirstId : string <<get>>
+    + AddIdentifier(id:string) : void
+}
+@enduml

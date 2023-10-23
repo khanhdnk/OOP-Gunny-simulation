@@ -1,0 +1,7 @@
+@startuml
+abstract class GameBlock {
+    + GameBlock(x:double, y:double)
+    + X : double <<get>> <<set>>
+    + Y : double <<get>> <<set>>
+}
+@enduml

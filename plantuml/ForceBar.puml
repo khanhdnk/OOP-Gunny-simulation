@@ -1,0 +1,10 @@
+@startuml
+class ForceBar {
+    + ForceBar(x:double, y:double, width:double, height:double, force:double, window:Window)
+    + ModifyLineBar() : void
+    + Update() : void
+    + Force : double <<get>> <<set>>
+    + Draw() : void
+}
+GameBlock <|-- ForceBar
+@enduml

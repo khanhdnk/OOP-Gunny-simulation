@@ -1,0 +1,30 @@
+@startuml
+class Bullet {
+    + Bullet(x:double, y:double, angle:double, enhanced:double, force:double, gameblocks:List<Player>, side:bool, grounds:List<HitBox>, type:string, thePlayer:Player)
+    + CheckCollide(playerCheck:Player) : bool
+    + CheckCollide(groundCheck:HitBox) : bool
+    + PlayersList() : List<Player>
+    + Algorithm() : void
+    + <<virtual>> Update() : void
+    + RemovePlayer() : void
+    + RemoveGround() : void
+    + UpdateAni : int <<get>> <<set>>
+    + Side : bool <<get>> <<set>>
+    + Top : double <<get>>
+    + Bottom : double <<get>>
+    + Left : double <<get>>
+    + Right : double <<get>>
+    + Stop : bool <<get>> <<set>>
+    + Radius : int <<get>>
+    + <<virtual>> DrawExplode() : void
+    + <<virtual>> Draw() : void
+}
+class "List`1"<T> {
+}
+GameBlock <|-- Bullet
+HitBox <|-- Bullet
+Bullet --> "Rectangle" Rectangle
+Bullet --> "Gameblocks<HitBox>" "List`1"
+Bullet --> "Grounds<HitBox>" "List`1"
+Bullet --> "PlayersLists<Player>" "List`1"
+@enduml

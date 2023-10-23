@@ -1,0 +1,12 @@
+@startuml
+class Button {
+    + Button(x:double, y:double, _width:int, _height:int, _gameState:string, text:string)
+    + IsMouseInRectangle(xpos:double, ypos:double, width:int, height:int) : bool
+    + OnClickButton() : bool
+    + GetState() : string
+    + Width : int <<get>> <<set>>
+    + Height : int <<get>> <<set>>
+    + Draw() : void
+}
+GameBlock <|-- Button
+@enduml

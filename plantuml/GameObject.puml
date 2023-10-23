@@ -1,0 +1,10 @@
+@startuml
+abstract class GameObject {
+    + GameObject(ids:string[], name:string, desc:string, x:double, y:double)
+    + Name : string <<get>>
+    + ShortDescription : string <<get>>
+    + <<virtual>> FullDescription : string <<get>>
+    + {abstract} Draw() : void
+}
+IdentifiableObject <|-- GameObject
+@enduml

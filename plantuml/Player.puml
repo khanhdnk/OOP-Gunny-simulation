@@ -1,0 +1,48 @@
+@startuml
+class Player {
+    + Player(name:string, desc:string, x:double, y:double, grounds:List<HitBox>, window:Window)
+    + IsTurn : bool <<get>> <<set>>
+    + Mana : double <<get>> <<set>>
+    + OldHP : double <<get>> <<set>>
+    + FinishTurn : bool <<get>> <<set>>
+    + PlayerArea : int <<get>>
+    + ResetCoolDown() : void
+    + Top : double <<get>>
+    + Bottom : double <<get>>
+    + Left : double <<get>>
+    + Right : double <<get>>
+    + Side : bool <<get>> <<set>>
+    + Angle : double <<get>> <<set>>
+    + HP : double <<get>>
+    + Force : double <<get>> <<set>>
+    + TotalUsed : double <<get>> <<set>>
+    + Invisible : bool <<get>> <<set>>
+    + EnhancedBullet : string <<get>> <<set>>
+    + NumberOfSuccessShots : double <<get>> <<set>>
+    + NumberOfShots : double <<get>> <<set>>
+    + RoundsWin : double <<get>> <<set>>
+    + RoundsPlayed : double <<get>> <<set>>
+    + UpdateListOfRecord(datatext:List<double>) : void
+    + GameBlocks(listOfGB:List<Player>) : void
+    + GetHit(damage:double, shootedPlayer:Player) : void
+    + CheckFall(grounds:List<HitBox>) : bool
+    + CheckCollide(grounds:List<HitBox>) : void
+    + CheckForFly(grounds:List<HitBox>) : bool
+    + PlayerMove(turn:string) : void
+    + Shooted : bool <<get>> <<set>>
+    + IsMouseInRectangle(xpos:double, ypos:double, width:int, height:int) : bool
+    + DelayTurn() : void
+    + TurnDelay : double <<get>> <<set>>
+    + TurnAbility : double <<get>> <<set>>
+    + CheckInvisible() : void
+    + Update() : void
+    + Draw() : void
+}
+class "List`1"<T> {
+}
+GameBlock <|-- Player
+Player --> "Rectangle" Rectangle
+Player --> "ListOfRecord<double>" "List`1"
+Player --> "Bullet" Bullet
+Player --> "Weapon" Weapon
+@enduml
